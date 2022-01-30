@@ -29,7 +29,7 @@ const FormTodo = (props) => {
             className="buttonBlack"
             disabled={description ? "" : "disabled"}
           >
-            {/*   if therre isn't anything written, the button won't wark*/}
+            {/*   if there isn't anything written, the button won't wark*/}
             Añadir tarea
           </button>
         </div>

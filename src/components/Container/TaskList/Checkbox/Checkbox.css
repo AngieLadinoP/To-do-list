@@ -5,12 +5,14 @@
     margin: 0 auto;
     cursor: pointer;
     border-bottom: solid 1px black;
+    z-index:-1;
 }
 
 .todo.new-item {
     opacity: 0;
     transform: translateX(100px);
     animation: fadeIn 0.3s linear forwards;
+
 }
 
 .todo__state {

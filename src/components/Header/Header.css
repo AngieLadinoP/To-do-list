@@ -19,34 +19,6 @@
     margin: auto;
 }
 
-.navigation {
-    display: flex;
-    justify-content: right;
-    margin-right: 5%;
-    margin: auto;
-}
-
-.navigation__link {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    font-size: larger;
-    margin: auto;
-}
-
-.navigation__link:hover {
-    background-color: red;
-}
-
-
-@media (max-width: 850px) {
-    .navigation__link--category {
-        display: none;
-    }
-}
-
 @media (max-width: 700px) {
     .header__title {
         font-size: 24px;

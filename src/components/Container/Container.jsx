@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import FormTodo from "./FormTodo/FormTodo.jsx";
 import TaskList from "./TaskList/TaskList.jsx";
-import "./DayList.css";
+import "./Container.css";
 
-const DayList = () => {
+const Container = () => {
   const [list, setList] = useState([]);
   const handleAddItem = (addItem) => {
     setList([...list, addItem]);
   };
   return (
     <>
-      <div className="day-list">
+      <div className="container">
+      <h1>Tareas</h1>
         <FormTodo handleAddItem={handleAddItem} />
         <TaskList list={list} setList={setList} />
       </div>
@@ -18,4 +19,4 @@ const DayList = () => {
   );
 };
 
-export default DayList;
+export default Container;
