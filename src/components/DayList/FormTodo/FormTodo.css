@@ -1,0 +1,18 @@
+.buttonBlack {
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #e71224;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.buttonBlack:hover {
+    transform: translateX(1px) translateY(-1px);
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: black;
+}

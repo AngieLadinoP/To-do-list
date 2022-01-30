@@ -1,0 +1,61 @@
+.todo-list {
+    font-size: normal;
+    color: #fff;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.274);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.file-input {
+    background: transparent;
+}
+
+.file-input>.text {
+    outline: none;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    font-size: large;
+    width: 200px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.267);
+    border: 0px solid;
+    font-family: roboto;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    ;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.buttonBlue {
+    background-color: #e71224;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.buttonBlue:hover {
+    transform: translateX(1px) translateY(-1px);
+    background-color: black;
+    border: 2px solid #fff;
+    color: white;
+    -webkit-transform: translateX(1px) translateY(-1px);
+    -moz-transform: translateX(1px) translateY(-1px);
+    -ms-transform: translateX(1px) translateY(-1px);
+    -o-transform: translateX(1px) translateY(-1px);
+}
