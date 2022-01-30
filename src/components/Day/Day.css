@@ -1,0 +1,10 @@
+.day{
+    width:100%;
+    padding:0;
+    margin:60px 0 0;
+}
+.day__title{
+    padding:5px;
+    font-family:"Playfair Display SC", serif;
+    font-size:24px;
+}

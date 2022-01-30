@@ -11,7 +11,6 @@ const Container = () => {
   return (
     <>
       <div className="container">
-      <h1>Tareas</h1>
         <FormTodo handleAddItem={handleAddItem} />
         <TaskList list={list} setList={setList} />
       </div>
