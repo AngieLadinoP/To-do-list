@@ -5,7 +5,6 @@
     margin: 0 auto;
     cursor: pointer;
     border-bottom: solid 1px black;
-    z-index:-1;
 }
 
 .todo.new-item {
