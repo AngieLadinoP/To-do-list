@@ -1,8 +1,17 @@
-# To DO LIST
+<h1 align="center">to do list </h1>
 
-See [Demo](https://to-do-list-al.netlify.app/)
+Web application developed with react for registering daily or weekly tasks 
 
-This project was bootstrapped with Create React App
+<h3 align="center">
+  
+See live demo here [to-do-list-al.netlify.app](https://to-do-list-al.netlify.app/)
+
+</h3>
+
+![image](https://user-images.githubusercontent.com/95056296/157873045-c2bca313-2e45-40ae-8d9f-0c2ed30c87dd.png)
+
+
+
 
 ## Available Scripts
 
