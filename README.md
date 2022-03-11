@@ -1,4 +1,4 @@
-<h1 align="center">to do list </h1>
+<h1 align="center">To do list </h1>
 
 Web application developed with react for registering daily or weekly tasks 
 
